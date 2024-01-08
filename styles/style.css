@@ -1,0 +1,49 @@
+@import url('../node_modules/bootstrap-icons/font/bootstrap-icons.css');
+.bg-c-1 {
+    background-color: #161616;
+}
+.nva-m-1 {
+    color: #a0a0a0 !important;
+}
+.nva-m-1:hover {
+    color: #ffffff !important;
+    transition: all 0.5s;
+}
+.nva-m-1::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 3px;
+    bottom: 0;
+    left: 0;
+    background-color: #0087ca;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+.nva-m-1:hover::after{
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+.bg-ct-1 {
+    background-image: url('../public/homepage.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bg-ct-2 {
+    background-image: url('../public/4907157.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bg-ct-3 {
+    background-image: url('../public/bsbg.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.nav-list.my-auto {
+    transition: all .5s;
+}
